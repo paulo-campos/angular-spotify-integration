@@ -1,0 +1,10 @@
+<ng-container *ngIf="spotifyUser">
+  <p>{{ spotifyUser.display_name }} do the bare minimum and give me a star for chewing this all over for you.</p>
+  <a href="https://github.com/paulo-campos/spotify-pkce-flow-angular" target="_blank">Give this repo a star ⭐️🆙</a>
+  <br>
+  <button (click)="player.previousTrack()">⏯️</button>
+  <button (click)="player.togglePlay()">⏯️</button>
+  <button (click)="player.nextTrack()">⏭️</button>
+  <br>
+  <img src="https://gifman.net/wp-content/uploads/2019/06/cara-de-espanto-05.gif" alt="">
+</ng-container>
